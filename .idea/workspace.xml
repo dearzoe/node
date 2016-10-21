@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="203fc307-caff-4ea1-95a8-13f235949459" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2.global/4.util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3.util/1.util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4.模块/1.math.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4.模块/2.usemath.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="node_huwenzhe.iws" />
@@ -26,11 +25,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="4.util.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="4.util.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2.global/4.util.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.67741936">
+            <state vertical-scroll-proportion="0.0">
               <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#50#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.math.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/4.模块/1.math.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5490798">
+              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2.usemath.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/4.模块/2.usemath.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding>
                 <element signature="e#0#50#0" expanded="false" />
               </folding>
@@ -61,6 +82,8 @@
         <option value="$PROJECT_DIR$/2.global/3.process.js" />
         <option value="$PROJECT_DIR$/3.util/1.util.js" />
         <option value="$PROJECT_DIR$/2.global/4.util.js" />
+        <option value="$PROJECT_DIR$/4.模块/2.usemath.js" />
+        <option value="$PROJECT_DIR$/4.模块/1.math.js" />
       </list>
     </option>
   </component>
@@ -125,21 +148,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="3.util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_huwenzhe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2.global" />
+              <option name="myItemId" value="4.模块" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -166,20 +175,20 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="javascript.nodejs.core.library.configured.version" value="6.0.0" />
   </component>
-  <component name="RunManager" selected="Node.js.4.util.js">
+  <component name="RunManager" selected="Node.js.2.usemath.js">
     <configuration default="false" name="1.global.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/工快速启动具/node/node" path-to-js-file="1.global.js" working-dir="$PROJECT_DIR$/2.global">
-      <method />
-    </configuration>
-    <configuration default="false" name="2.setImmediate.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/工快速启动具/node/node" path-to-js-file="2.setImmediate.js" working-dir="$PROJECT_DIR$/2.global">
-      <method />
-    </configuration>
-    <configuration default="false" name="process.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/工快速启动具/node/node" path-to-js-file="$PROJECT_DIR$/2.global/3.process.js" working-dir="$PROJECT_DIR$/2.global">
       <method />
     </configuration>
     <configuration default="false" name="1.util.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/工快速启动具/node/node" path-to-js-file="1.util.js" working-dir="$PROJECT_DIR$/3.util">
       <method />
     </configuration>
     <configuration default="false" name="4.util.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/工快速启动具/node/node" path-to-js-file="4.util.js" working-dir="$PROJECT_DIR$/2.global">
+      <method />
+    </configuration>
+    <configuration default="false" name="1.math.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/工快速启动具/node/node" path-to-js-file="1.math.js" working-dir="$PROJECT_DIR$/4.模块">
+      <method />
+    </configuration>
+    <configuration default="false" name="2.usemath.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/工快速启动具/node/node" path-to-js-file="2.usemath.js" working-dir="$PROJECT_DIR$/4.模块">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -232,18 +241,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Node.js.1.global.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.2.setImmediate.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.process.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.1.util.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.4.util.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.1.util.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.4.util.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.1.math.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.2.usemath.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.4.util.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.1.util.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.1.global.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.process.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.2.setImmediate.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.2.usemath.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.1.math.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.4.util.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.1.util.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.1.global.js" />
       </list>
     </recent_temporary>
   </component>
@@ -288,7 +297,13 @@
       <option name="project" value="LOCAL" />
       <updated>1476971504280</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="util里面的方法">
+      <created>1477035937053</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1477035937053</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -299,11 +314,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1697479" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40336135" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -356,7 +371,8 @@
     <MESSAGE value="time-timeEnd&#10;" />
     <MESSAGE value="setimmediate" />
     <MESSAGE value="setimmediate 与 process.nextTick的区别" />
-    <option name="LAST_COMMIT_MESSAGE" value="setimmediate 与 process.nextTick的区别" />
+    <MESSAGE value="util里面的方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="util里面的方法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -375,13 +391,38 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/2.global/4.util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#50#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.模块/1.math.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.模块/2.usemath.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#50#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/3.util/1.util.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#50#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -399,9 +440,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#50#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -468,19 +506,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7402827">
           <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.global/4.util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
           <folding>
             <element signature="e#0#50#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2.global/4.util.js">
+    <entry file="file://$PROJECT_DIR$/4.模块/2.usemath.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67741936">
-          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
             <element signature="e#0#50#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.模块/1.math.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5490798">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
