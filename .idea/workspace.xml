@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="203fc307-caff-4ea1-95a8-13f235949459" name="默认的" comment="exports 抛出接口，require 引入">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/4.模块/1.math.js" afterPath="$PROJECT_DIR$/4.模块/1.math.js" />
     </list>
     <ignored path="node_huwenzhe.iws" />
@@ -40,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/4.模块/1.math.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.61230767">
-              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -538,7 +537,7 @@
     <entry file="file://$PROJECT_DIR$/4.模块/1.math.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.61230767">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
           <folding />
         </state>
       </provider>
