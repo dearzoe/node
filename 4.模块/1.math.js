@@ -11,4 +11,6 @@ function add(a,b){
     return a+b
 }
 exports.add=add;//抛出接口
+
 console.log(exports.add);//输出
+console.log(module);//原理exports: { add: [Function: add] },
